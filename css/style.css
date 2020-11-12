@@ -83,10 +83,36 @@ header a{
   text-align: right;
 }
 
-
-.log-in-nav ul{
-
+.main-nav{
+  height: 90px;
+  line-height: 90px;
+  box-shadow: 0 4px 2px -2px rgba(136, 136, 136, 0.54);
 }
+
+.main-nav .logo{
+  width: 20%;
+  padding-top: 10px;
+}
+
+nav{
+  width: 80%;
+  text-align: right;
+}
+
+nav i {
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* _________________________________________________ */
