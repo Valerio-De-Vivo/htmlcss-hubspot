@@ -86,7 +86,11 @@ header a{
 .main-nav{
   height: 90px;
   line-height: 90px;
+  background-color: white;
   box-shadow: 0 4px 2px -2px rgba(136, 136, 136, 0.54);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .main-nav .logo{
@@ -104,15 +108,58 @@ nav i {
 }
 
 
+.jumbotron{
+  height: 600px;
+  background-color: #fff4ef;
+  background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.jumbotron .container{
+  position: relative;
+  height: 100%;
+}
+
+.jumbotron .textarea{
+  width: 50%;
+  padding: 40px 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron .textarea h1{
+  color: #33475b;
+  font-size: 300%;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+
+.jumbotron .textarea p{
+  color: #33475b;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.jumbotron .textarea a{
+  display: inline-block;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
 
 
-
-
-
-
-
-
-
+.greenbar{
+  width: 100%;
+  height: 90px;
+  background-color: #bce9e4;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  border: 4px solid #33475b;
+}
 
 
 /* _________________________________________________ */
