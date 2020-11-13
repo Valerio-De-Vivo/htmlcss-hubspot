@@ -35,6 +35,10 @@ a{
   float: left;
 }
 
+.right{
+  float: right;
+}
+
 .btn{
   padding: 10px 20px;
   color: #fe775a;
@@ -60,6 +64,10 @@ a{
 /* _________________________________________________ */
 
 /* HEADER */
+
+header{
+  display: unset;
+}
 
 header li{
   display: inline-block;
@@ -176,92 +184,224 @@ nav i {
 
 /* MAIN */
 
-.powerful{
-  background-color: #f4f9fd;
-  text-align: center;
-  /* da cancellare */
-  height: 900px;
-}
 
-.row1{
-  width: 70%;
-  margin: auto;
-}
+/* 1SECTION */
 
-.row1 img{
-  width: 30%;
-}
+  .powerful{
+    background-color: #f4f9fd;
+    text-align: center;
+  }
 
-.row1 p{
-  padding: 40px;
-  font-weight: lighter;
-  line-height: 1.7;
-}
+  /* ROW1 */
 
-.row2{
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 4px 2px -2px rgba(136, 136, 136, 0.54);
-}
 
-.row2 .colonna30{
-  width: 30%;
-  padding: 40px;
-}
+  .row1{
+    width: 70%;
+    margin: auto;
+  }
 
-.row2 .colonna70{
-  width: 70%;
-  padding: 50px;
-  text-align: left;
-}
+  .row1 img{
+    width: 30%;
+  }
 
-.row2 .colonna30 img{
-  width: 60%;
-}
+  .row1 p{
+    padding: 40px;
+    font-weight: lighter;
+    line-height: 1.7;
+  }
 
-.row2 .colonna30 a {
-  display: inline-block;
-  padding: 20px 30px;
-}
+  /* _________________________________________________ */
 
-.row2 .colonna70 h2{
-  margin-bottom: 30px;
-}
 
-.row2 .colonna70 .text{
-width: 80%;
-}
+  /* ROW2 */
 
-.row2 .colonna70 h3{
-  height: 30px;
-  display: inline-block;
-  text-transform: uppercase;
-}
+  .row2{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.54);
+    padding-top: 15px;
+  }
 
-.row2 .colonna70 p{
-  font-weight: lighter;
-  line-height: 1.5;
-}
+  .row2 .colonna30{
+    width: 30%;
+    padding-left: 120px;
+    padding-top: 20px;
+  }
 
-.linea{
-  width: 70%;
-  padding: 20px;
-  display: inline-block;
-  height: 10px;
-}
+  .row2 .colonna70{
+    width: 70%;
+    padding: 50px;
+    text-align: left;
+  }
 
-.popularfeat{
-  padding: 20px 0;
-}
+  .row2 .colonna30 img{
+    width: 60%;
+  }
 
-.spunte{
-  padding: 20px 0;
-}
+  .row2 .colonna30 a {
+    display: inline-block;
+    padding: 20px 30px;
+  }
 
-.spunte i{
-  color: #fe775a;
-  padding: 0 10px;
-}
+  .row2 .colonna70 h2{
+    margin-bottom: 30px;
+  }
+
+  .row2 .colonna70 .text{
+  width: 80%;
+  }
+
+  .row2 .colonna70 h3{
+    text-transform: uppercase;
+  }
+
+  .row2 .colonna70 p{
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+
+  .popularfeat{
+    padding: 20px 0;
+  }
+
+  .popular{
+    width: 25%;
+    display: inline-block;
+  }
+
+  .feat{
+    width: 69%;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+
+  .spunte{
+    padding: 30px 0;
+  }
+
+  .spunte i{
+    color: #fe775a;
+    padding: 0 10px;
+  }
+
+  /* ROW3 */
+
+  .row3{
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .colonna{
+    width: 30%;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.54);
+  }
+
+  .center{
+    margin: 0 5%;
+  }
+
+  .colonna img{
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .colonna h2{
+    margin-bottom: 20px;
+  }
+
+  .colonna p{
+    font-weight: lighter;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .colonna hr{
+    margin: 30px 0;
+  }
+
+  .colonna h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .colonna div {
+    text-align: left;
+    font-weight: lighter;
+    margin-bottom: 60px;
+  }
+
+  .colonna i{
+    color: #fe775a;
+    padding: 0 10px;
+  }
+
+  .colonna a{
+    padding: 20px 30px;
+  }
+
+  /* _________________________________________________ */
+
+/* FINE 1SECTION_________________________________________________ */
+
+
+/* 2SECTION */
+
+  .statistiche {
+    background-image: linear-gradient(to right , #00a9b8 , #00b6ab );
+    text-align: center;
+    padding: 50px;
+  }
+
+  .statistiche .container h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .statistiche .container p {
+    font-weight: lighter;
+    line-height: 1.6;
+    color: white;
+  }
+
+  .grid{
+    margin-top: 50px;
+  }
+
+  .col-grid{
+    width: 25%;
+    padding: 30px;
+  }
+
+  .border-bottomright{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+
+  .border-bottom{
+    border-bottom: 1px solid white;
+  }
+
+  .border-right{
+    border-right: 1px solid white;
+  }
+
+  div.imgcolonna{
+    height: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
