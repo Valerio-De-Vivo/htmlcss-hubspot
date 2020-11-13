@@ -51,10 +51,21 @@ a{
   background-color: #fe775a;
 }
 
+.btnlight{
+  color: #32495b;
+  background-color: #dadee0;
+  border: 1px solid grey;
+  margin: 20px 0;
+  font-weight: normal;
+}
+
 .searchazure{
   color: #2bb2c8;
 }
 
+ul {
+  list-style: none;
+}
 
 .container{
   width: 80%;
@@ -471,6 +482,52 @@ nav i {
     text-align: right;
     padding-right: 50px;
   }
+
+/* _________________________________________________ */
+
+
+/* FOOTER */
+
+footer{
+  background-color: #32495b;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+footer h4{
+  color: white;
+  padding: 20px 0;
+}
+
+footer a{
+  color: #cbd6e2;
+  display: inline-block;
+}
+
+.footer-col-25{
+  width: 25%;
+}
+
+footer li {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.footer-col-25 i {
+  color: #dadee0;
+  width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
