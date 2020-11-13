@@ -44,6 +44,8 @@ a{
   color: #fe775a;
   border: 1px solid #fe775a;
   border-radius: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .btnfull{
@@ -57,6 +59,10 @@ a{
   border: 1px solid grey;
   margin: 20px 0;
   font-weight: normal;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .searchazure{
@@ -502,10 +508,12 @@ footer h4{
 footer a{
   color: #cbd6e2;
   display: inline-block;
+  font-size: 15px;
 }
 
 .footer-col-25{
   width: 25%;
+  padding-right: 30px;
 }
 
 footer li {
@@ -516,6 +524,42 @@ footer li {
 .footer-col-25 i {
   color: #dadee0;
   width: 15%;
+}
+
+.language{
+  margin-top: 70px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dadee0;
+  text-align: center;
+}
+
+.language ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.copy{
+  padding: 20px 0;
+}
+
+.copyright{
+  width: 50%;
+}
+
+.copy p{
+  color: #dadee0;
+}
+
+.legal{
+  width: 50%;
+  text-align: right;
+}
+
+.legal p {
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 15px;
+  margin: 0 10px;
 }
 
 
