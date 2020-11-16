@@ -574,16 +574,19 @@ footer li {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 350px;
+  width: 250px;
 }
 
 .messaggi {
-  width: 90%;
+  width: 15%;
   margin: auto;
   background-color: white;
   box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.54);
   border-radius: 10px;
-  position: relative;
+  position: fixed;
+  bottom: 10%;
+  right: 1%;
+  display: none;
 }
 
 .headchat {
@@ -619,16 +622,18 @@ footer li {
 
 .iconachat{
   text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 1%;
 }
 
 .iconachat img {
   width: 30%;
 }
 
-.iconachat img:hover .messaggi{
-  display: none;
+.iconachat:hover + .messaggi{
+  display: block;
 }
-
 
 
 
