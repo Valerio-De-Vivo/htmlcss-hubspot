@@ -565,16 +565,69 @@ footer li {
 
 
 
+/* _________________________________________________ */
 
 
+/* Chat */
 
+.chat{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+}
 
+.messaggi {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(136, 136, 136, 0.54);
+  border-radius: 10px;
+  position: relative;
+}
 
+.headchat {
+  width: 25%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate( -50% , -50%);
+}
 
+.messaggi i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  padding: 3%;
+  color: #32495b;
+}
 
+.textbox{
+  padding: 15% 8% 10% 8%;
+}
 
+.hello {
+  width: 12%;
+  vertical-align: middle;
+}
 
+.messaggi span{
+  color: #32495b;
+  line-height: 1.5;
+}
 
+.iconachat{
+  text-align: right;
+}
+
+.iconachat img {
+  width: 30%;
+}
+
+.iconachat img:hover .messaggi{
+  display: none;
+}
 
 
 
